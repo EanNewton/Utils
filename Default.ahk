@@ -175,9 +175,9 @@ return
 ; Open Word with a new file based on the Escalation Template
 ;------------------------------------------------------------------------------
 ; LOCAL
-; #+e::Run, winword.exe /f "C:\Users\eann.BOSANOVA\OneDrive - 10ZiG Technology\Documents 1\templates\Escalation Template Fancy - Template.docx"
+; #+e::Run, winword.exe /f "C:\Users\ean\OneDrive\Documents\templates\Template Fancy - Template.docx"
 ; ONE DRIVE
-; #+e::Run, winword.exe /f "\\10zig-ean\ImageStore\Document Templates\Escalation Template Fancy - Template.docx"
+; #+e::Run, winword.exe /f "\\ean\Document Templates\Template Fancy - Template.docx"
 ;------------------------------------------------------------------------------
 ;
 ; XTERM
