@@ -66,7 +66,7 @@ SetBatchLines, -1
 SetWorkingDir %A_ScriptDir%
  
 ; sets title matching to search for "containing" instead of "exact"
-SetTitleMatchMode, 2y
+SetTitleMatchMode, 2
  
 GroupAdd, saveReload, %A_ScriptName%
  
