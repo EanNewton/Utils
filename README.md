@@ -20,3 +20,7 @@ See also: https://github.com/EanNewton/dotfiles
 ## Office
 
 * [Mermaid.live Diagram Editor](https://mermaid.live) - Markdown syntax style diagram and flowchart editor.
+
+## Misc.
+
+* [CodingFont](https://www.codingfont.com/) - Side by side font comparison and tournament. Play a game to decide your favorite font.
