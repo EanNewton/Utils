@@ -24,3 +24,4 @@ See also: https://github.com/EanNewton/dotfiles
 ## Misc.
 
 * [CodingFont](https://www.codingfont.com/) - Side by side font comparison and tournament. Play a game to decide your favorite font.
+* [CookLang](https://cooklang.org/) - Markdown for recipes.
