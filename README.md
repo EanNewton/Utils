@@ -6,6 +6,10 @@ See also: https://github.com/EanNewton/dotfiles
 
 # External Resources
 
+## 3D Printing and Modeling
+
+* [svg2stl](https://svg2stl.com/) - The conversion from SVG to STL can be frustrating if one does not know the proper tools to use. The aim of this service is to provide a way of simply uploading an SVG and downloading an STL, ready for 3D printing.
+
 ## Emulation
 
 * [Hercules: IBM S/370 and ESA/390 Emulator](http://www.jaymoseley.com/hercules/)
