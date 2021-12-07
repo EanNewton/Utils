@@ -23,6 +23,7 @@ See also: https://github.com/EanNewton/dotfiles
 
 ## Office
 
+* [Markdown Table of Contents Generator](https://luciopaiva.com/markdown-toc/)
 * [Mermaid.live Diagram Editor](https://mermaid.live) - Markdown syntax style diagram and flowchart editor.
 
 ## Misc.
