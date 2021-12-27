@@ -1,19 +1,31 @@
 # Utils
-My script and utility repo
+My script and utility repo, this is an unorganized mess where I dump things sometimes.
 
 
 See also: https://github.com/EanNewton/dotfiles
 
-# External Resources
+
+# Daily stuff
+
+* [ack](https://beyondgrep.com/) Better grep
+
+* [Markdown Table of Contents Generator](https://luciopaiva.com/markdown-toc/)
+* [VirtualBox](https://www.virtualbox.org/)
+
+---
+
+# Misc stuff I need to look more at
 
 ## 3D Printing and Modeling
 
 * [svg2stl](https://svg2stl.com/) - The conversion from SVG to STL can be frustrating if one does not know the proper tools to use. The aim of this service is to provide a way of simply uploading an SVG and downloading an STL, ready for 3D printing.
 
+## CLI
+* [Taskwarrior](https://taskwarrior.org/)
+
 ## Emulation
 
 * [Hercules: IBM S/370 and ESA/390 Emulator](http://www.jaymoseley.com/hercules/)
-* [VirtualBox](https://www.virtualbox.org/)
 
 ## Imaging
 
@@ -23,7 +35,6 @@ See also: https://github.com/EanNewton/dotfiles
 
 ## Office
 
-* [Markdown Table of Contents Generator](https://luciopaiva.com/markdown-toc/)
 * [Mermaid.live Diagram Editor](https://mermaid.live) - Markdown syntax style diagram and flowchart editor.
 
 ## Misc.
