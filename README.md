@@ -36,6 +36,7 @@ See also: https://github.com/EanNewton/dotfiles
 
 ## Office
 
+* [Kinopio Club](https://help.kinopio.club/about/) - mind mapping and organization
 * [Mermaid.live Diagram Editor](https://mermaid.live) - Markdown syntax style diagram and flowchart editor.
 
 ## Misc.
