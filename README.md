@@ -24,6 +24,10 @@ See also: https://github.com/EanNewton/dotfiles
 ## CLI
 * [Taskwarrior](https://taskwarrior.org/)
 
+## Dev
+
+* [Dura](https://github.com/tkellogg/dura) - Ctrl-z is outdated
+
 ## Emulation
 
 * [Hercules: IBM S/370 and ESA/390 Emulator](http://www.jaymoseley.com/hercules/)
