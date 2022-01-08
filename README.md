@@ -9,9 +9,12 @@ See also: https://github.com/EanNewton/dotfiles
 
 * [ack](https://beyondgrep.com/) Better grep
 * [UNIX tools](https://kkovacs.eu/cool-but-obscure-unix-tools) - most not that obscure but useful
-
 * [Markdown Table of Contents Generator](https://luciopaiva.com/markdown-toc/)
 * [VirtualBox](https://www.virtualbox.org/)
+
+## Awesomes
+
+* [Awesome Windows](https://github.com/Awesome-Windows/Awesome)
 
 ---
 
