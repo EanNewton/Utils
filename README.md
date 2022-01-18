@@ -8,6 +8,7 @@ See also: https://github.com/EanNewton/dotfiles
 # Daily stuff
 
 * [ack](https://beyondgrep.com/) Better grep
+* [Hammertime](https://hammertime.djdavid98.art/) - Create dynamic timestamps for Discord
 * [UNIX tools](https://kkovacs.eu/cool-but-obscure-unix-tools) - most not that obscure but useful
 * [Markdown Table of Contents Generator](https://luciopaiva.com/markdown-toc/)
 * [VirtualBox](https://www.virtualbox.org/)
