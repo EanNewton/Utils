@@ -1,12 +1,5 @@
 
 ;------------------------------------------------------------------------------
-; Copyright © Ean Newton - All Rights Reserved
-; Unauthorized copying of this file, via any medium, is strictly prohibited.
-; Proprietary and confidential.
-; Written by Ean Newton <Ean.Newton5@gmail.com>, August 2021
-;------------------------------------------------------------------------------
-
-;------------------------------------------------------------------------------
 ; CHANGELOG:
 ; 
 ; Aug 08 2021: Modified for general usage
