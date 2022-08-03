@@ -145,6 +145,21 @@ def flatten_lists(list_of_lists: list) -> list:
     return [item for sublist in list_of_lists for item in sublist]
 
 
+# Get variable name as passed in, not for production use
+import re
+import traceback
+def func(var):
+    stack = traceback.extract_stack()
+    filename, lineno, function_name, code = stack[-2]
+    vars_name = re.compile(r'\((.*?)\).*$').search(code).groups()[0]
+    print vars_name
+    return
+foobar = "foo"
+func(foobar)
+# PRINTS: foobar
+
+
+
 if __name__ == '__main__':
     print(globals()['d' + input('> ')](input('>> ')))  # ENTER to EOF
     # print(globals()['d' + input('>')](multi_in()))  # ENTER to EOF
