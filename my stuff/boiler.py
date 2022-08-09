@@ -227,3 +227,59 @@ if __name__ == '__main__':
                 board = random_state(50, 25, 50)
             conway(board)
     print(help)
+
+    
+    
+# Random numbers
+
+import numpy as np
+import matplotlib.pyplot as plt
+from collections import Counter
+import time
+
+
+def pseudo_uniform(low=0,
+                   high=1,
+                  seed=123456789,
+                  size=1):
+    """
+    Generates uniformly random number between `low` and `high` limits
+    """
+    return low+(high-low)*pseudo_uniform_good(seed=seed,size=size)
+
+
+def pseudo_uniform_good(mult=16807,
+                        mod=(2**31)-1,
+                        seed=123456789,
+                        size=1):
+    """
+    A reasoanbly good pseudo random generator
+    """
+    U = np.zeros(size)
+    x = (seed*mult+1)%mod
+    U[0] = x/mod
+    for i in range(1,size):
+        x = (x*mult+1)%mod
+        U[i] = x/mod
+    return U
+
+# Example
+def sample_pick(lst):
+    """
+    Picks up a random sample from a given list
+    """
+    # Sets seed based on the decimal portion of the current system clock
+    t = time.perf_counter()
+    seed = int(10 ** 9 * float(str(t - int(t))[0:]))
+    # Random sample as an index
+    l = len(lst)
+    s = pseudo_uniform(low=0, high=l, seed=seed, size=1)
+    idx = int(s)
+
+    return (lst[idx])
+
+
+dice_faces = ['one','two','three','four','five','six']
+for _ in range(30):
+    print(sample_pick(dice_faces),end=', ')
+
