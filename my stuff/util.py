@@ -1,6 +1,15 @@
 #!/usr/bin/python3
 
 from constants import DEFAULT_DIR
+from math import ceil
+
+def chunk(lst: list, size: int) -> list:
+    """
+    Chunk a lst into smaller lists of size.
+    Use range to create a list of desired size then use map on it to fill it with splices of lst.
+    """
+    return list(map(lambda _: lst[_ * size : _ * size + size], list(range(0, ceil(len(lst) / size)))))
+
 
 def wikisearch(query: str) -> str:
     """
