@@ -3,6 +3,21 @@
 from constants import DEFAULT_DIR
 from math import ceil
 
+
+# TODO Docstrings not auto-generating anymore for some reason, find plugin?
+def insertion_sort(raw: list) -> list:
+    """
+
+    """
+    for each in range(1, len(raw)):
+        key = raw[each]
+        j = each - 1
+        while j >= 0 and key < raw[j]:
+            # We need to swap elements
+            raw[j + 1] = raw[j]
+            j -= 1
+            raw[j + 1] = key
+
 def chunk(lst: list, size: int) -> list:
     """
     Chunk a lst into smaller lists of size.
