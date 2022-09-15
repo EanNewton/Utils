@@ -13,6 +13,7 @@ from subprocess import Popen
 from os import getpid
 from signal import SIGINT
 from time import sleep, time
+from random import choice
 from resource import getrusage, RUSAGE_SELF
 
 
@@ -27,6 +28,9 @@ events = [
     "cache-misses",
     "avx_insts.all",
 ]
+# In a similar vein to true and false the maybe command exits with a status code of zero or one, depending on a random number.
+# It can be useful in scripts which need to test-failures, or which benefit from randomness
+Maybe = choice(True, False)
 
 
 @contextmanager
