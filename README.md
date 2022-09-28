@@ -1,3 +1,8 @@
+# EOL
+
+This project has been archived. For up to date version see: https://github.com/EanNewton/dotfiles
+
+
 # Utils
 My script and utility repo, scripts / one-liners / commands / etc are in files named on the base system to use them on; while utilities and such are below. 
 
